@@ -1,0 +1,9 @@
+flask
+requests
+langgraph
+transformers
+gunicorn
+# Torch is required by transformers for CPU inference
+# If install is heavy, consider using a smaller wheel or a runtime with torch preinstalled
+torch
+rapidfuzz
